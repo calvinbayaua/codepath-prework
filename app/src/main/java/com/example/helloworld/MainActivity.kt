@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
 
         // Change background color
         findViewById<Button>(R.id.button2).setOnClickListener {
-            Log.i("Calvin", backgroundCount.toString())
             findViewById<ConstraintLayout>(R.id.background).setBackgroundColor(getResources().getColor(R.color.teal_200))
         }
 
